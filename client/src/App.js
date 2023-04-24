@@ -12,7 +12,7 @@ import UserListedMovies from "./pages/UserListedMovies";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-    <Route index element={<Signup />} />
+    <Route index path="/signup" element={<Signup />} />
         <Route  path="/login" element={<Login />} />
         <Route  path="/player" element={<Player />} />
         <Route  path="/tv" element={<TVShows />} />
